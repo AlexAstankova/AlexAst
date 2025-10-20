@@ -28,8 +28,8 @@ export default function SocialProofSection() {
               {stats.map((stat, index) => {
                 const Icon = stat.icon
                 return (
-                  <div key={index} className="text-center">
-                    <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-50 rounded-full mb-4">
+                  <div key={index} className="text-center flex flex-col items-center">
+                    <div className="flex items-center justify-center w-16 h-16 bg-blue-50 rounded-full mb-4">
                       <Icon className="w-8 h-8 text-[#2B59C3]" />
                     </div>
                     <div className="text-2xl font-bold text-gray-900 mb-1">{stat.value}</div>
