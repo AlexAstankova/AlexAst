@@ -43,7 +43,7 @@ export default function SocialProofSection() {
           {/* Alexandra's photo */}
           <div className="hidden lg:flex justify-center items-center">
             <img 
-              src="/AlexAst/images/alexandra.jpg" 
+              src="/images/alexandra.jpg" 
               alt="Александра Астанкова" 
               className="h-[400px] w-auto object-contain drop-shadow-lg rounded-lg"
               style={{
