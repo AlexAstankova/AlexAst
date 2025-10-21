@@ -1,6 +1,7 @@
 import { Building2, Package, Laptop, Stethoscope, Truck, Award, Users, FileText } from 'lucide-react'
 
 export default function SocialProofSection() {
+  // Updated version
   const stats = [
     { icon: Award, value: '10+', label: 'лет опыта' },
     { icon: Users, value: '200+', label: 'довольных клиентов' },
