@@ -74,6 +74,14 @@ export default function SocialProofSection() {
               )
             })}
           </div>
+          
+          {/* Закупки */}
+          <div className="mt-12 text-center">
+            <p className="text-gray-600 font-medium mb-2">Закупки в рамках</p>
+            <p className="text-lg text-gray-900 font-semibold">
+              44-ФЗ, 223-ФЗ, 615-ПП, коммерческие лоты, имущественные торги
+            </p>
+          </div>
         </div>
       </div>
     </section>

@@ -139,7 +139,7 @@ export default function CalculatorSection() {
                   ))}
                 </ul>
                 <p className="text-xs text-gray-500 mt-4">
-                  * При необходимости стоимость может меняться в меньшую и большую сторону
+                  * При необходимости может меняться в меньшую и большую стоимость.
                 </p>
               </div>
             </div>
@@ -147,7 +147,7 @@ export default function CalculatorSection() {
             <Dialog open={isFormOpen} onOpenChange={setIsFormOpen}>
               <DialogTrigger asChild>
                 <Button className="w-full bg-blue-600 hover:bg-blue-700 text-lg py-6">
-                  Получить точную смету по вашей закупке
+                  Получить точный расчет стоимости
                 </Button>
               </DialogTrigger>
               <DialogContent className="sm:max-w-[425px]">
