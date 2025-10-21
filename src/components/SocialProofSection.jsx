@@ -1,4 +1,4 @@
-import { Building2, Package, Laptop, FileText, Users, Award } from 'lucide-react'
+import { Building2, Package, Laptop, Stethoscope, Truck, Award } from 'lucide-react'
 
 export default function SocialProofSection() {
   const stats = [
@@ -11,9 +11,9 @@ export default function SocialProofSection() {
   const industries = [
     { icon: Building2, name: 'Строительство' },
     { icon: Package, name: 'Поставки' },
+    { icon: Stethoscope, name: 'Медицина' },
     { icon: Laptop, name: 'ИТ-услуги' },
-    { icon: FileText, name: 'Канцелярия' },
-    { icon: Users, name: 'Консалтинг' },
+    { icon: Truck, name: 'Логистика' },
     { icon: Award, name: 'Услуги' }
   ]
 
@@ -57,8 +57,11 @@ export default function SocialProofSection() {
         {/* Industries - all in one row */}
         <div>
           <h3 className="text-2xl font-bold text-center text-gray-900 mb-8">
-            Работаем с компаниями из разных отраслей
+            Работаем с компаниями по всем направлениям
           </h3>
+          <p className="text-center text-gray-600 mb-8">
+            Строительство, Поставки, Медицина, ИТ-услуги, Логистика, Услуги и многое другое
+          </p>
           <div className="grid grid-cols-6 gap-4">
             {industries.map((industry, index) => {
               const Icon = industry.icon

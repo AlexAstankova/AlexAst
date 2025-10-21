@@ -23,7 +23,7 @@ export default function ServicesSection() {
     {
       icon: FileCheck,
       title: 'Экспресс-аудит',
-      price: 'от 5 000 ₽',
+      price: '3 000 ₽',
       description: 'Быстрая оценка готовности к участию в конкретной закупке',
       features: [
         'Анализ документации закупки',
@@ -60,7 +60,7 @@ export default function ServicesSection() {
     {
       icon: Shield,
       title: 'Абонемент',
-      price: 'от 50 000 ₽/мес',
+      price: '30 000 ₽',
       description: 'Постоянное сопровождение вашего бизнеса',
       features: [
         'Неограниченные консультации',
@@ -72,7 +72,7 @@ export default function ServicesSection() {
     {
       icon: GraduationCap,
       title: 'Обучение',
-      price: 'от 15 000 ₽',
+      price: '10 000 ₽',
       description: 'Обучение ваших сотрудников работе с тендерами',
       features: [
         'Основы 44-ФЗ и 223-ФЗ',
@@ -91,7 +91,10 @@ export default function ServicesSection() {
             Наши услуги
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Лестница ценности: от бесплатной консультации до полного сопровождения
+            От бесплатной консультации до получения оплаты по контракту
+          </p>
+          <p className="text-sm text-gray-500 max-w-3xl mx-auto mt-2">
+            Зарегистрируем на площадках, подберем тендер и сопроводим его "под ключ" до получения оплаты
           </p>
         </div>
 
