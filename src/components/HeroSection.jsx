@@ -88,7 +88,7 @@ export default function HeroSection() {
           <div className="relative flex justify-center items-center min-h-[500px]">
             {/* Alexandra's professional photo */}
             <img 
-              src="/images/alexandra.jpg?v=2025" 
+              src="/images/hero-main-2025.jpg" 
               alt="Александра Астанкова" 
               className="h-[450px] w-auto object-contain drop-shadow-2xl" 
             />
